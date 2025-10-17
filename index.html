@@ -28,7 +28,7 @@
 <body>
 <div id="headerWrapper">
 	<header>
-        <img src="images/tech_logo.png" alt="logo" height="45" width="45">
+        <img src="images/tech_logo.png" alt="InnovateTech 2025 Conference Logo" height="45" width="45">
         <div class="header-text">
             <span class="main-title">Design Thinking</span>
             <span class="header-slogan">Innovate. Create. Transform.</span>
@@ -57,14 +57,19 @@
  <div id="mainWrapper">
     <main>
         <div class="hero">
-        <video autoplay muted playsinline loop width="800" height="300">
-        <source src="/media/Hero-Video-handbrake.webm" type="video/webm" />
-        <source src="/media/Hero-Video-handbrake.mp4" type="video/mp4" />
+        <video autoplay muted playsinline loop width="800" height="300" 
+               title="InnovateTech 2025 Conference Hero Video"
+               aria-label="Background video showing technology and innovation themes for InnovateTech 2025 conference"
+               preload="metadata">
+            <source src="/media/Hero-Video-handbrake.webm" type="video/webm" />
+            <source src="/media/Hero-Video-handbrake.mp4" type="video/mp4" />
+            <!-- Fallback content for browsers that don't support HTML5 video -->
+            <p>Your browser doesn't support HTML5 video. Here's a <a href="/media/Hero-Video-handbrake.mp4">link to the video</a> instead.</p>
         </video>
         <!-- Video overlay with InnovateTech 2025 message -->
         <div class="video-overlay">
             <div class="overlay-content">
-                <h3 class="hero-heading">InnovateTech 2025</h3>
+                <h1 class="hero-heading">InnovateTech 2025</h1>
                 <p class="hero-subtext">Join us at InnovateTech 2025 — a celebration of innovation and progress. Mark your calendars and be part of the conversation shaping the future of technology.</p>
             </div>
         </div>
@@ -90,7 +95,7 @@
                 <div class="card-inner">
                     <!-- Front of card -->
                     <div class="card-front">
-                        <img src="images/sarah.jpg" alt="Dr. Sarah Lee" class="speaker-image">
+                        <img src="images/sarah.jpg" alt="Portrait of Dr. Sarah Lee, AI Research Scientist and conference speaker" class="speaker-image">
                         <div class="speaker-overlay">
                             <h3>Dr. Sarah Lee</h3>
                             <p class="specialty">AI & Machine Learning</p>
@@ -114,7 +119,7 @@
                 <div class="card-inner">
                     <!-- Front of card -->
                     <div class="card-front">
-                        <img src="images/james.jpg" alt="James Alvarez" class="speaker-image">
+                        <img src="images/james.jpg" alt="Portrait of James Alvarez, UX Design Lead and conference speaker" class="speaker-image">
                         <div class="speaker-overlay">
                             <h3>James Alvarez</h3>
                             <p class="specialty">Cybersecurity & DevOps</p>
@@ -138,7 +143,7 @@
                 <div class="card-inner">
                     <!-- Front of card -->
                     <div class="card-front">
-                        <img src="images/pyra.jpg" alt="Priya Patel" class="speaker-image">
+                        <img src="images/pyra.jpg" alt="Portrait of Priya Patel, Cybersecurity Expert and conference speaker" class="speaker-image">
                         <div class="speaker-overlay">
                             <h3>Priya Patel</h3>
                             <p class="specialty">Frontend Development & UX</p>
