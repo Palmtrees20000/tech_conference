@@ -116,7 +116,8 @@ nav ul {
         border-bottom: 1px solid $greyColor;
     }
     li.active a {
-        color: $activeNavColor;
+        color: rgb(58, 49, 0);   // Darker golden brown for better contrast compliance
+
     }
 } // end nav
 
