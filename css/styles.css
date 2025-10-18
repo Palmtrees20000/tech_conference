@@ -350,6 +350,7 @@ header .header-text {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.1rem;
+  padding-left: 1rem;
 }
 header .header-text .main-title {
   font-size: 1.6rem;

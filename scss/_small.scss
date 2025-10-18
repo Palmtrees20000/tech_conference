@@ -41,6 +41,7 @@ header {
         flex-direction: column;
         align-items: flex-start; // Left align the text stack
         gap: 0.1rem; // Small gap between title and slogan
+        padding-left: 1rem; // Add space between logo and text
         
         .main-title {
             font-size: 1.6rem;
